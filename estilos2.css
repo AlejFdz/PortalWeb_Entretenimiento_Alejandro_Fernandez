@@ -1,0 +1,388 @@
+.menu{
+    display: inline-block;
+    padding-left: auto;
+    padding-right: auto;
+    padding-inline: 10px;
+    padding-top: 5px;
+    font-size: 30px;
+    color: white;
+}
+
+.menu:hover{
+    color: brown;
+    transition: 0.2s;
+}
+
+.inline{
+    display: inline-block;
+}
+
+.fijo{
+    top: 0;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+
+}
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .textos{
+    font-size: 50px;
+    color: white;
+    transition: 1s;
+}
+
+.textos:hover{
+    color: aliceblue;
+    transition: 1s;
+    font-size: 46px;
+}
+
+.titulo{
+    padding-left: 20px;
+    padding-top: 50px;
+    font-size: 50px;
+    color: white;
+}
+
+.imagen{
+    background: url(recursos/poster-joker-2-1567010576.jpg);
+    width: 290px;
+    height: 400px;
+    background-size: cover;
+    transition: 0.5s;
+}
+
+.imagen:hover{
+    background: url(recursos/poster-joker-2-1567010576.jpg);
+    width: 290px;
+    height: 400px;
+    background-size: cover;
+    transition: 0.5s;
+    filter: grayscale(85%);
+}
+
+.imagensecu{
+    background: url(recursos/jokerse.jpg);
+    width: 290px;
+    height: 400px;
+    background-size: cover;
+    transition: 0.5s;
+}
+
+.imagen1{
+    background: url(recursos/infinitywar.jpg);
+    width: 290px;
+    height: 400px;
+    background-size: cover;
+    transition: 0.5s;
+}
+
+.imagen1:hover{
+    background: url(recursos/infinitywar.jpg);
+    width: 290px;
+    height: 400px;
+    background-size: cover;
+    transition: 0.5s;
+    filter: grayscale(85%);
+}
+
+.imagen1secu{
+    background: url(recursos/thanos.jpg);
+    width: 290px;
+    height: 400px;
+    background-size: cover;
+    transition: 0.5s;
+}
+
+.imagen2{
+    background: url(recursos/the-batman.jpg);
+    width: 290px;
+    height: 400px;
+    background-size: cover;
+    transition: 0.5s;
+}
+
+.imagen2:hover{
+    background: url(recursos/the-batman.jpg);
+    width: 290px;
+    height: 400px;
+    background-size: cover;
+    transition: 0.5s;
+    filter: grayscale(85%);
+}
+
+.imagen2secu{
+    background: url(recursos/catbat.jpg);
+    width: 290px;
+    height: 400px;
+    background-size: cover;
+    transition: 0.5s;
+}
+
+.imagen3{
+    background: url(recursos/DedWol.jpg);
+    width: 290px;
+    height: 400px;
+    background-size: cover;
+    transition: 0.5s;
+}
+
+.imagen3:hover{
+    background: url(recursos/DedWol.jpg);
+    width: 290px;
+    height: 400px;
+    background-size: cover;
+    transition: 0.5s;
+    filter: brightness(80%);
+}
+
+.imagen3secu{
+    background: url(recursos/deadpool-wolverine-2.jpg);
+    width: 290px;
+    height: 400px;
+    background-size: cover;
+    transition: 0.5s;
+}
+
+.imagen4{
+    background: url(recursos/john-wick-2.jpg);
+    width: 290px;
+    height: 400px;
+    background-size: cover;
+    transition: 0.5s;
+}
+
+.imagen4:hover{
+    background: url(recursos/john-wick-2.jpg);
+    width: 290px;
+    height: 400px;
+    background-size: cover;
+    transition: 0.5s;
+    filter: brightness(80%);
+}
+
+.imagen4secu{
+    background: url(recursos/jw2.jpg);
+    width: 290px;
+    height: 400px;
+    background-size: cover;
+    transition: 0.5s;
+}
+
+.imagen5{
+    background: url(recursos/Piratas.jpg);
+    width: 290px;
+    height: 400px;
+    background-size: cover;
+    transition: 0.5s;
+}
+
+.imagen5:hover{
+    background: url(recursos/Piratas.jpg);
+    width: 290px;
+    height: 400px;
+    background-size: cover;
+    transition: 0.5s;
+    filter: brightness(80%);
+}
+
+.imagen5secu{
+    background: url(recursos/piratascaribe.jpg);
+    width: 290px;
+    height: 400px;
+    background-size: cover;
+    transition: 0.5s;
+}
+
+.imagen6{
+    background: url(recursos/momia.jpg);
+    width: 290px;
+    height: 400px;
+    background-size: cover;
+    transition: 0.5s;
+}
+
+.imagen6:hover{
+    background: url(recursos/momia.jpg);
+    width: 290px;
+    height: 400px;
+    background-size: cover;
+    transition: 0.5s;
+    filter: blur(2px);
+}
+
+.imagen6secu{
+    background: url(recursos/momoi.jpg);
+    width: 290px;
+    height: 400px;
+    background-size: cover;
+    transition: 0.5s;
+}
+
+.imagen7{
+    background: url(recursos/btf.png);
+    width: 290px;
+    height: 400px;
+    background-size: cover;
+    transition: 0.5s;
+}
+
+.imagen7:hover{
+    background: url(recursos/btf.png);
+    width: 290px;
+    height: 400px;
+    background-size: cover;
+    transition: 0.5s;
+    filter: brightness(80%);
+    filter: blur(2px);
+}
+
+.imagen7secu{
+    background: url(recursos/backto.jpg);
+    width: 290px;
+    height: 400px;
+    background-size: cover;
+    transition: 0.5s;
+}
+
+.imagen8{
+    background: url(recursos/indiana.jpg);
+    width: 290px;
+    height: 400px;
+    background-size: cover;
+    transition: 0.5s;
+}
+
+.imagen8:hover{
+    background: url(recursos/indiana.jpg);
+    width: 290px;
+    height: 400px;
+    background-size: cover;
+    transition: 0.5s;
+    filter: brightness(80%);
+    filter: blur(2px);
+}
+
+.imagen8secu{
+    background: url(recursos/indiana-jones-2-1.jpeg);
+    width: 290px;
+    height: 400px;
+    background-size: cover;
+    transition: 0.5s;
+}
+
+.parrafo{
+    font-size: 20px;
+    width: 40%;
+    margin-left: 95px;
+    margin-right: 95px;
+    margin-top: 25px;
+    text-align: justify;
+}
+
+.unkempt-regular {
+    font-family: "Unkempt", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .boton{
+    background-color: white;
+    color: black;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    border-color: none;
+    background-position: center;
+  }
+
+  .boton:hover{
+    background-color: rgb(15, 15, 15);
+    color: rgb(255, 255, 255);
+    width: 110px;
+    height: 45px;
+    border-radius: 20px;
+    border-color: none;
+    background-position: center;
+  }
+
+  .lightbox
+{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    background: rgb(0,0,0, 0.5);
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+    transition: 0.5s ease-in-out;
+}
+.lightbox img
+{
+    width: 75vw;
+    max-height: 90vh;
+}
+.lightbox:target
+{
+    transform: scale(1);
+}
+.cerrar
+{
+    display: block;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    font-weight:bolder;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.botonconek{
+    top: 35%;
+    left: 0%;
+    width: 90px;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    font-size: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 0px 15px 15px 0px;
+  }
+  
+  .botonconek:hover{
+    top: 35%;
+    left: 0%;
+    width: 90px;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    font-size: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    filter: drop-shadow(1px 2px 2px rgb(59, 59, 59));
+  }
+
+  .letra{
+    color: white;
+    transition: 0.5s;
+  }
+  
+  .letra:hover{
+    color: rgb(184, 0, 0);
+    transition: 0.5s;
+  }

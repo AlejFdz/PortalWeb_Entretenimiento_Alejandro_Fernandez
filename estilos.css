@@ -1,0 +1,447 @@
+html
+{
+    scroll-behavior: smooth;
+}
+
+.menu{
+    display: inline-block;
+    padding-left: auto;
+    padding-right: auto;
+    padding-inline: 10px;
+    padding-top: 5px;
+    font-size: 30px;
+    color: white;
+}
+
+.menu:hover{
+    color: rgb(184, 0, 0);
+    transition: 0.2s;
+}
+
+.titulo{
+    padding-left: 20px;
+    padding-top: 50px;
+    font-size: 50px;
+    color: white;
+}
+
+.text{
+    padding-left: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+.imagen{
+    background: url(recursos/poster-joker-2-1567010576.jpg);
+    width: 300px;
+    height: 400px;
+    background-size: cover;
+    transition: 0.5s;
+
+}
+
+.imagen:hover{
+    background: url(recursos/poster-joker-2-1567010576.jpg);
+    width: 400px;
+    height: 500px;
+    background-size: cover;
+    transition: 0.5s;
+    filter: grayscale(85%);
+
+}
+
+.imagen2{
+    background: url(recursos/infinitywar.jpg);
+    width: 300px;
+    height: 400px;
+    background-size: cover;
+    margin-left: 40px;
+    margin-top: 50px;
+    transition: 0.5s;
+}
+
+.imagen2:hover{
+    background: url(recursos/infinitywar.jpg);
+    width: 400px;
+    height: 500px;
+    background-size: cover;
+    margin-left: 40px;
+    margin-top: 50px;
+    transition: 0.5s;
+    filter: grayscale(85%);
+}
+
+.imagen3{
+    background: url(recursos/the-batman.jpg);
+    width: 300px;
+    height: 400px;
+    background-size: cover;
+    margin-left: 40px;
+    margin-top: 50px;
+    transition: 0.5s;
+}
+
+.imagen3:hover{
+    background: url(recursos/the-batman.jpg);
+    width: 400px;
+    height: 500px;
+    background-size: cover;
+    margin-left: 40px;
+    margin-top: 50px;
+    transition: 0.5s;
+    filter: grayscale(85%);
+}
+
+.inline{
+    display: inline-block;
+}
+
+.textosficcion
+  {display: inline-block;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 13px;
+    text-align: justify;
+    width: 250px;
+}
+
+.imagena{
+    background: url(recursos/DedWol.jpg);
+    width: 300px;
+    height: 400px;
+    background-size: cover;
+    transition: 0.5s;
+}
+
+.imagena:hover{
+    background: url(recursos/DedWol.jpg);
+    width: 400px;
+    height: 500px;
+    background-size: cover;
+    transform: rotate(30deg);
+    transition: 0.5s;
+}
+
+.imagenb{
+    background: url(recursos/john-wick-2.jpg);
+    width: 300px;
+    height: 400px;
+    background-size: cover;
+    margin-left: 40px;
+    margin-top: 50px;
+    transition: 0.5s;
+}
+
+.imagenb:hover{
+    background: url(recursos/john-wick-2.jpg);
+    width: 400px;
+    height: 500px;
+    background-size: cover;
+    margin-left: 40px;
+    margin-top: 50px;
+    transform: rotate(30deg);
+    transition: 0.5s;
+}
+
+.imagenc{
+    background: url(recursos/Piratas.jpg);
+    width: 300px;
+    height: 400px;
+    background-size: cover;
+    margin-left: 40px;
+    margin-top: 50px;
+    transition: 0.5s;
+}
+
+.imagenc:hover{
+    background: url(recursos/Piratas.jpg);
+    width: 400px;
+    height: 500px;
+    background-size: cover;
+    margin-left: 40px;
+    margin-top: 50px;
+    transform: rotate(30deg);
+    transition: 0.5s;
+}
+
+.imagenx{
+    background: url(recursos/momia.jpg);
+    width: 300px;
+    height: 400px;
+    background-size: cover;
+    transition: 0.5;
+}
+
+.imagenx:hover{
+    background-size: cover;
+    transition: 0.5s;
+    transform: translate(-20px, -15px);
+    filter: blur(2px);
+}
+
+.imageny{
+    background: url(recursos/btf.png);
+    width: 300px;
+    height: 400px;
+    background-size: cover;
+    margin-left: 40px;
+    margin-top: 50px;
+    transition: 0.5s;
+}
+
+.imageny:hover{
+    background-size: cover;
+    margin-left: 40px;
+    margin-top: 50px;
+    transition: 0.5s;
+    transform: translate(-20px, -15px);
+    filter: blur(2px);
+}
+
+.imagenz{
+    background: url(recursos/indiana.jpg);
+    width: 300px;
+    height: 400px;
+    background-size: cover;
+    margin-left: 40px;
+    margin-top: 50px;
+    transition: 0.5s;
+}
+
+.imagenz:hover{
+    background-size: cover;
+    margin-left: 40px;
+    margin-top: 50px;
+    transition: 0.5s;
+    transform: translate(-20px, -15px);
+    filter: blur(2px);
+}
+
+.imagenr{
+    background: url(recursos/sda.jpg);
+    width: 300px;
+    height: 400px;
+    background-size: cover;
+    margin-left: 40px;
+    margin-top: 50px;
+    filter: blur(3px);
+    transition: 0.5s;
+}
+
+.imagenr:hover{
+    background-size: cover;
+    margin-left: 40px;
+    margin-top: 50px;
+    transition: 0.5s;
+    filter: blur(1px);
+}
+
+.imagens{
+    background: url(recursos/hp.jpg);
+    width: 300px;
+    height: 400px;
+    background-size: cover;
+    margin-left: 40px;
+    margin-top: 50px;
+    transition: 0.5s;
+    filter: blur(3px);
+}
+
+.imagens:hover{
+    background-size: cover;
+    margin-left: 40px;
+    margin-top: 50px;
+    transition: 0.5s;
+    filter: blur(1px);
+}
+
+.imagent{
+    background: url(recursos/vanhelsin.jpg);
+    width: 300px;
+    height: 400px;
+    background-size: cover;
+    margin-left: 40px;
+    margin-top: 50px;
+    transition: 0.5s;
+    filter: blur(3px);
+}
+
+.imagent:hover{
+    background-size: cover;
+    margin-left: 40px;
+    margin-top: 50px;
+    transition: 0.5s;
+    filter: blur(1px);
+}
+
+.imagenerror{
+    background: url(recursos/remodelaciones.jpg);
+}
+
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .unkempt-regular {
+    font-family: "Unkempt", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .unkempt-bold {
+    font-family: "Unkempt", cursive;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .carrusel-rotativo{
+    width: 1280px;
+    height: auto;
+    margin: 50px auto 0;
+    overflow: hidden;
+}
+
+.carrusel-rotativo ul{
+  display: flex;
+  padding: 0;
+  width: 400%;
+  animation: slide 16s infinite alternate ease-in-out;
+}
+
+.carrusel-rotativo li{
+    list-style: none;
+    width: 100%;
+}
+
+.carrusel-rotativo img{
+width: 100%;
+}
+
+@keyframes slide{
+
+0% {margin-left: 0px}
+20% {margin-left: 0%}
+
+25% {margin-left: -100%}
+45% {margin-left: -100%}
+
+50% {margin-left: -200%}
+70% {margin-left: -200%}
+
+75% {margin-left: -300%}
+100% {margin-left: -300%}
+}
+
+.textos{
+    font-size: 50px;
+    color: white;
+    transition: 1s;
+}
+
+.textos:hover{
+    color: aliceblue;
+    transition: 1s;
+    font-size: 46px;
+}
+
+.textos2{
+    font-size: 50px;
+    color: white;
+    transition: 1s;
+}
+
+.textos2:hover{
+    color: aliceblue;
+    transition: 1s;
+    font-size: 55px;
+}
+
+.boton{
+    background-color: rgb(233, 233, 233);
+    color: black;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    border-color: none;
+    background-position: center;
+    transition: 0.5s;
+  }
+
+  .boton:hover{
+    background-color: rgb(184, 0, 0);
+    color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    border-color: none;
+    background-position: center;
+    transition: 0.5s;
+  }
+
+  .botonx{
+    background-color: rgb(146, 1, 1);
+    color: white;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    border-color: none;
+    background-position: center;
+    transition: 0.5s;
+  }
+
+  .botonx:hover{
+    background-color: rgb(128, 1, 1);
+    color: white;
+    width: 140px;
+    height: 40px;
+    border-radius: 20px;
+    border-color: none;
+    background-position: center;
+    transition: 0.5s;
+  }
+
+  .faculty-glyphic-regular {
+    font-family: "Faculty Glyphic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .botonconek{
+    top: 35%;
+    left: 0%;
+    width: 90px;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    font-size: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 0px 15px 15px 0px;
+  }
+  
+  .botonconek:hover{
+    top: 35%;
+    left: 0%;
+    width: 90px;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    font-size: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    filter: drop-shadow(1px 2px 2px rgb(59, 59, 59));
+  }
+
+  .letra{
+    color: white;
+    transition: 0.5s;
+  }
+  
+  .letra:hover{
+    color: rgb(184, 0, 0);
+    transition: 0.5s;
+  }

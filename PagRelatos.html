@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RelatosEcu</title>
+    <link rel="stylesheet" type="text/css" href="estilosrelatos.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Faculty+Glyphic&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+</head>
+<body style="margin: 0; top: 0; box-sizing: border-box; padding: 0; background-color: rgb(224, 211, 192) ;">
+    <center>
+    <div style="width: 100%; height: 220px; background-color:rgb(82, 53, 34); position: fixed; top: 0; padding-top: 10px; z-index: 100; padding-bottom: 1px;">
+        <a href="PaginaPrincipal.html" style="text-decoration: none;"><div class="faculty-glyphic-regular textos" style="padding-top: 5px; color: rgb(255, 255, 255);">CAPKING</div></a>
+        <div><a href="#"><img style="width: 5%;" src="lp/Logorelatos.png" class="inline"></a></div>
+        <div class="botonconek"><a href="Cine.html"><img src="lp/logo cine.png"  style="width: 50px;"></a> <img src="lp/flecha.png" style="width: 25px; display: block; rotate: 180deg;" onclick="mostrarcate()">
+            <div style="display: none; background-color: rgb(82, 53, 34); width: 40%;" class="inline" id="contenido2"><div class="bebas-neue-regular"><a href="Cine.html #ficcion" style="text-decoration: none;"><p class="letra">F</p></a><a href="Cine.html #accion" style="text-decoration: none;"><p class="letra">Ac</p></a><a href="Cine.html #aventura" style="text-decoration: none;"><p class="letra">Av</p></a></div></div>
+        </div>
+        
+        <div>
+           
+        
+            <a name="sus"></a>
+            <button class="botonx sour-gummy" onclick="mostraralgo()">Contacto de Suscripción</button>
+            <div id="contenido" style="display: none; background-color: rgb(82, 53, 34); width: 40%;" class="inline">
+                <div class="sour-gummy">
+                    <br>
+                    <h1 style="color: rgb(255, 255, 255);">Formulario de Contacto</h1>
+                    <p></p>
+                    <label style="color: white; padding-right: 10px;">Nombre:</label><input type="text" name="nombre" placeholder="Ingresa tu nombre">
+                    <p></p>
+                    <label style="color: white; padding-right: 7px;">Apellido:</label><input type="text" name="nombre" placeholder="Ingresa tu apellido">
+                    <p></p>
+                    <label style="color: rgb(255, 255, 255); padding-right: 19px;">E-mail:</label><input type="email" id="correo" name="correo" placeholder="Ingresa tu correo electrónico aquí">
+                    <br><br>
+                    <script>
+                        function validar()
+                        {
+                            var correo = document.getElementById("correo").value;
+                            if (correo.includes ("@") && correo.includes ("."))
+                        {
+                            alert("Formulario Validada");
+                        }
+                        else
+                        {
+                            alert("Formulario Inválidado");
+                        }
+                        
+                        }
+                        </script>
+                    <button onclick="validar()">Enviar</button>
+                    <br><br><br>
+
+                </div> 
+                </div>
+        </div>
+    </div>
+
+    <div style="padding-top: 250px;">
+    <br>
+    <hr style="border-color: rgb(77, 40, 15);"><div class="sour-gummy" style="padding-top: 5px; font-size: 80px; color: rgb(82, 52, 29);">Relatos Fantásticos</div><hr style="border-color: rgb(77, 40, 15);">
+        <p style="margin-top: 30px;"></p>
+         
+        <div class="imagen1 inline" style="width: 350px; height: 450px; background-position-x: -115px;"></div>
+        <div style="margin-left: 20px; width: 350px; height: 450px; background-position-x: -240px;" class="imagenb inline"></div>
+        <div style="margin-left: 20px; width: 350px; height: 450px;" class="imageny inline"></div>
+        <p></p>
+        <div>
+        <div class="textosficcion sour-gummy inline">La Casa 1028
+            <center><a href="Landing28.html"><div style="padding-top: 15px;"><button class="botonx">Ver más</button></div></a></center>
+        </div>
+        <div style="padding-left: 120px;" class="textosficcion sour-gummy inline">Leyenda Cantuña
+            <center><a href="Landingcantuña.html"><div style="padding-top: 15px;"><button class="botonx">Ver más</button></div></a></center>
+        </div>
+        <div style="padding-left: 120px;" class="textosficcion sour-gummy inline">Dama Tapada
+            <center><a href="Landingdama.html"><div style="padding-top: 15px;"><button class="botonx">Ver más</button></div></a></center>
+        </div>
+    </div>
+    </div>
+    <br><br><br><br>
+    <footer style="background-color: rgb(82, 53, 34); height: 300px;">
+        <div style="margin-top: 90px; display: inline;">
+            <a href="#"><img style="width: 150px; height: 150px; padding-left: 100px;" src="lp/Logorelatos.png"></a>
+            <div style="display: inline; padding-left: 400px;">
+                <a href="https://www.facebook.com/watch/?v=386378073763181" target="_blank"><div style="display: inline-block; margin-top: 90px;"><img style="width: 100px; height: 100px;" src="lp/facebookk.png"></div></a>
+                <a href="https://www.instagram.com/revista.leyendas/?hl=es" target="_blank"><div style="display: inline-block;"><img style="width: 100px; height: 100px; padding-left: 10px;" src="lp/instaa.png"></div></a>
+                <a href="https://www.youtube.com/playlist?list=PLqYsBz90-WCTzLDlbpLMsNpntak8ZpzWJ" target="_blank"><div style="display: inline-block;"><img style="width: 100px; height: 100px; padding-left: 10px;" src="lp/yutubb.png"></div></a>
+            </div>
+            <br><br><br><br>
+            <center><h5 style="color: white;">@2024 | Todos los derechos reservados</h5></center>
+        </div>
+    </footer>
+
+</center>
+</body>
+<script src="anaid.js"></script>
+</html>

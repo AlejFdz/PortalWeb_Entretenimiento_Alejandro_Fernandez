@@ -1,0 +1,353 @@
+html
+{
+    scroll-behavior: smooth;
+}
+
+.inline{
+    display: inline-block;
+}
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sour-gummy {
+  font-family: "Sour Gummy", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 10px;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.faculty-glyphic-regular {
+  font-family: "Faculty Glyphic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.edua{
+  font-family: "Edu AU VIC WA NT Pre", cursive;
+  font-optical-sizing: auto;
+  font-weight: 30px;
+  font-style: normal;
+}
+
+  .menu{
+    display: inline-block;
+    padding-left: auto;
+    padding-right: auto;
+    margin-left: 5px;
+    padding-inline: 10px;
+    padding-top: 5px;
+    font-size: 30px;
+    color: white;
+}
+
+.carrusel-rotativo{
+  width: 1280px;
+  height: auto;
+  margin: 50px auto 0;
+  overflow: hidden;
+}
+
+.carrusel-rotativo ul{
+display: flex;
+padding: 0;
+width: 400%;
+animation: slide 16s infinite alternate ease-in-out;
+}
+
+.carrusel-rotativo li{
+  list-style: none;
+  width: 100%;
+}
+
+.carrusel-rotativo img{
+width: 100%;
+}
+
+@keyframes slide{
+
+0% {margin-left: 0px}
+20% {margin-left: 0%}
+
+25% {margin-left: -100%}
+45% {margin-left: -100%}
+
+50% {margin-left: -200%}
+70% {margin-left: -200%}
+
+75% {margin-left: -300%}
+100% {margin-left: -300%}
+}
+
+.imagen1{
+  width: 300px;
+    height: 300px;
+    background: url('lp/toro.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition: 0.5s;
+}
+
+.imagen1:hover{
+  filter: grayscale(90%);
+        transition: 0.5s;
+}
+
+.imagen2{
+  width: 300px;
+    height: 300px;
+    background: url('lp/obra2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition: 0.5s;
+}
+
+.imagen2:hover{
+  filter: grayscale(90%);
+        transition: 0.5s;
+}
+
+.imagen3{
+  width: 300px;
+    height: 300px;
+    background: url('lp/imagen\ 1\ casa.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition: 0.5s;
+}
+
+.imagen3:hover{
+  filter: grayscale(100%);
+        transition: 0.5s;
+}
+
+.lightbox
+{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    background: rgb(0,0,0, 0.5);
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+    transition: 0.5s ease-in-out;
+}
+.lightbox img
+{
+    width: 75vw;
+    max-height: 90vh;
+}
+.lightbox:target
+{
+    transform: scale(1);
+}
+.cerrar
+{
+    display: block;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    font-weight:bolder;
+    text-align: center;
+    border-radius: 50%;
+}
+  
+.imagena{
+  width: 300px;
+    height: 300px;
+    background: url('lp/cantuña.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition: 0.5s;
+}
+
+.imagena:hover{
+  filter: drop-shadow(15px 10px 15px rgb(59, 59, 59));
+        transition: 0.5s;
+        transform: translate(10px, 5px);
+}
+
+.imagenb{
+  width: 300px;
+    height: 300px;
+    background: url('lp/cantuñafiguras.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition: 0.5s;
+}
+
+.imagenb:hover{
+  filter: drop-shadow(15px 10px 15px rgb(59, 59, 59));
+        transition: 0.5s;
+        transform: translate(10px, 5px);
+}
+
+.imagenc{
+  width: 300px;
+    height: 300px;
+    background: url('lp/cantuña\ y\ diablo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition: 0.5s;
+}
+
+.imagenc:hover{
+  filter: drop-shadow(15px 10px 15px rgb(59, 59, 59));
+        transition: 0.5s;
+        transform: translate(10px, 5px);
+}
+
+.botonx{
+  background-color: rgb(97, 64, 43);
+  color: white;
+  width: 120px;
+  height: 50px;
+  border-radius: 20px;
+  border-color: none;
+  background-position: center;
+  transition: 0.5s;
+}
+
+.botonx:hover{
+  background-color: rgb(94, 67, 51);
+  color: white;
+  width: 140px;
+  height: 40px;
+  border-radius: 20px;
+  border-color: none;
+  background-position: center;
+  transition: 0.5s;
+}
+
+.imagenx{
+  width: 300px;
+    height: 300px;
+    background: url('lp/dama2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition: 0.5s;
+}
+
+.imagenx:hover{
+  filter: blur(2px);
+        transition: 0.5s;
+}
+
+.imageny{
+  width: 300px;
+    height: 300px;
+    background: url('lp/dama3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition: 0.5s;
+}
+
+.imageny:hover{
+  filter: blur(2px);
+        transition: 0.5s;
+}
+
+.imagenz{
+  width: 300px;
+    height: 300px;
+    background: url('lp/dama7.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition: 0.5s;
+}
+
+.imagenz:hover{
+  filter: blur(2px);
+        transition: 0.5s;
+}
+
+.textosficcion
+  {display: inline-block;
+    color: rgb(82, 52, 29);
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+    width: 250px;
+}
+
+.textos{
+  font-size: 50px;
+  color: white;
+  transition: 1s;
+}
+
+.textos:hover{
+  color: aliceblue;
+  transition: 1s;
+  font-size: 46px;
+}
+
+.botonconek{
+  top: 35%;
+  left: 0%;
+  width: 90px;
+  background-color: rgb(82, 53, 34);
+  position: fixed;
+  font-size: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 0px 15px 15px 0px;
+}
+
+.botonconek:hover{
+  top: 35%;
+  left: 0%;
+  width: 90px;
+  background-color: rgb(82, 53, 34);
+  position: fixed;
+  font-size: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  filter: drop-shadow(1px 2px 2px rgb(59, 59, 59));
+}
+
+.secciones{
+  top: 40%;
+  left: 0%;
+  width: 90px;
+  position: fixed;
+  font-size: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 0px 15px 15px 0px;
+}
+
+.letra{
+  color: white;
+  transition: 0.5s;
+}
+
+.letra:hover{
+  color: rgb(184, 0, 0);
+  transition: 0.5s;
+}

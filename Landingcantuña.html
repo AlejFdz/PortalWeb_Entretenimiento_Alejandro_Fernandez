@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Leyenda de Cantuña</title>
+    <link rel="stylesheet" type="text/css" href="estilosrelatos.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Faculty+Glyphic&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+</head>
+<body style="margin: 0; top: 0; box-sizing: border-box; padding: 0; background-color: rgb(246, 229, 207) ;">
+    <center>
+
+        <div style="width: 100%; height: 200px; background-color:rgb(82, 53, 34); position: fixed; top: 0; padding-top: 10px; z-index: 100; padding-bottom: 20px;">
+            <a href="PaginaPrincipal.html" style="text-decoration: none;"><div class="faculty-glyphic-regular textos" style="padding-top: 5px; color: rgb(255, 255, 255);">CAPKING</div></a>
+            <div><a href="PagRelatos.html"><img style="width: 5%;" src="lp/Logorelatos.png" class="inline"></a></div>
+            <div>
+                <div class="menu"><a href="#"><img style="width: 25px;" src="lp/flecha.png" class="inline"></a></div>
+                <div class="menu sour-gummy"><a style="text-decoration: none; color: rgb(241, 232, 227);" href="#his">Historia</a></div>
+                <div class="menu sour-gummy"><a style="text-decoration: none; color: rgb(241, 232, 227);" href="#rela">Relatos</a></div>
+                <div class="menu sour-gummy"><a style="text-decoration: none; color: rgb(241, 232, 227);" href="#gal">Galería</a></div>
+                <div class="menu sour-gummy"><a style="text-decoration: none; color: rgb(241, 232, 227);" href="#ubi">Ubicación</a></div>
+                
+                <div class="botonconek"><a href="Cine.html"><img src="lp/logo cine.png"  style="width: 50px;"></a> <img src="lp/flecha.png" style="width: 25px; display: block; rotate: 180deg;" onclick="mostrarcate()">
+                    <div style="display: none; background-color: rgb(82, 53, 34); width: 40%;" class="inline" id="contenido2"><div class="bebas-neue-regular"><a href="Cine.html #ficcion" style="text-decoration: none;"><p class="letra">F</p></a><a href="Cine.html #accion" style="text-decoration: none;"><p class="letra">Ac</p></a><a href="Cine.html #aventura" style="text-decoration: none;"><p class="letra">Av</p></a></div></div>
+                </div>
+
+                <a name="sus"></a>
+                <button class="botonx sour-gummy" onclick="mostraralgo()">Contacto de Suscripción</button>
+                <div id="contenido" style="display: none; background-color: rgb(82, 53, 34); width: 40%;" class="inline">
+                    <div class="sour-gummy">
+                        <br>
+                        <h1 style="color: rgb(255, 255, 255);">Formulario de Contacto</h1>
+                        <p></p>
+                        <label style="color: white; padding-right: 10px;">Nombre:</label><input type="text" name="nombre" placeholder="Ingresa tu nombre">
+                        <p></p>
+                        <label style="color: white; padding-right: 7px;">Apellido:</label><input type="text" name="nombre" placeholder="Ingresa tu apellido">
+                        <p></p>
+                        <label style="color: rgb(255, 255, 255); padding-right: 19px;">E-mail:</label><input type="email" id="correo" name="correo" placeholder="Ingresa tu correo electrónico aquí">
+                        <br><br>
+                        <script>
+                            function validar()
+                            {
+                                var correo = document.getElementById("correo").value;
+                                if (correo.includes ("@") && correo.includes ("."))
+                            {
+                                alert("Formulario Validada");
+                            }
+                            else
+                            {
+                                alert("Formulario Inválidado");
+                            }
+                            
+                            }
+                            </script>
+                        <button onclick="validar()">Enviar</button>
+                        <br><br><br>
+
+                    </div> 
+                    </div>
+            </div>
+        </div>
+
+        <div style="width: 100%; height: 100px; padding-top: 260px;">
+
+            <div class="carrusel-rotativo" style="padding-top: 10px;">
+                <ul>
+                    <li>
+                        <div style="background: url(lp/cantuña\ frente.jpg); width: 100%; height: 700px; background-size: cover;"></div>
+                    </li>
+                    <li><img style="height: 725px;" src="lp/cantuñafiguras.jpg"></li>
+                    <li><img style="height: 725px;" src="lp/muñecoslejos.jpg"></li>
+                    <li><img style="height: 725px;" src="lp/cantuna.jpg"></li>
+                </ul>
+            </div>
+
+        <br>
+        <a name="his"></a>
+           <hr style="border-color: rgb(77, 40, 15);"><h1 class="sour-gummy" style="color: rgb(92, 59, 35);">Descubre la Historia de Cantuña</h1><hr style="border-color: rgb(77, 40, 15);">
+           <br>
+        <div style="width: 80%;" class="edua">
+            <p>La leyenda de Cantuña narra la historia de un constructor indígena, descendiente del guerrero Rumiñahui, quien recibió el encargo de construir el atrio de la iglesia de San Francisco en Quito. A medida que el plazo de seis meses llegaba a su fin y la obra no estaba completa, Cantuña, desesperado, hizo un pacto con el Diablo: a cambio de su alma, el demonio completaría el trabajo en una noche. Sin embargo, Cantuña engañó al Diablo al esconder una piedra antes de que terminara la construcción, lo que invalidó el trato y salvó su alma.</p>
+            <br>
+            <img src="lp/muñecoslejos.jpg" width="600px" height="auto">
+        </div>
+        <br><br>
+
+        <hr style="border-color: rgb(77, 40, 15);"><h1 class="sour-gummy" style="color: rgb(92, 59, 35);">¿Qué debes saber?</h1><hr style="border-color: rgb(77, 40, 15);">
+        <br>
+     <div style="width: 30%; display: inline-block;" class="edua">
+        <li>En la Costa, Sierra, Oriente y la región Insular del Ecuador  las tradiciones, leyendas y cultura son quienes caracterizan y llenan de vida a cada región.</li>
+         <li>Una leyenda ecuatoriana que es muy popular y forma parte de nuestra cultura , identidad y tradición, esta leyenda quiteña relata la audacia del personaje que burla al demonio, a los pies del volcán de la provincia de Pichincha.</li>
+         <li>Esta interesante historia de Cantuña es muy difundida y nace en el Centro Histórico de Quito, y también es conocida como la leyenda del atrio de la San Francisco.</li>
+        </div>
+        <br>
+        <a name="rela"></a>
+        <hr style="border-color: rgb(77, 40, 15);"><h1 class="sour-gummy" style="color: rgb(92, 59, 35);">Relatos Cantuña</h1><hr style="border-color: rgb(77, 40, 15);">
+        <br><br><br>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/abk2-LkjrTA?si=xMBZRZhx3gcI4Wwh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <br><br>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/show/5ZiVbGud1ShmAjwgcp6isE?utm_source=generator&theme=0" width="90%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <br><br><br><br><br>
+
+            <a name="gal"></a>
+            <hr style="border-color: rgb(77, 40, 15);"><h1 class="sour-gummy" style="color: rgb(92, 59, 35);">Galería</h1><hr style="border-color: rgb(77, 40, 15);">
+                <br><br><br>
+
+                <a href="#1"><div class="imagena inline" style="background-position: center; background-repeat: no-repeat;"></div></a>
+                    <article class="lightbox" id="1">
+                    <div class="imagena inline" style="background-position: center; width: 50%; height: 90%;"></div>
+                    <a href="#gal"><input type="button" class="cerrar" value="X"></a>
+                    </article>
+
+                    <a href="#2"><div class="imagenb inline" style="background-position: center; background-repeat: no-repeat;"></div></a>
+                    <article class="lightbox" id="2">
+                    <div class="imagenb inline" style="background-position: center; width: 50%; height: 50%;"></div>
+                    <a href="#gal"><input type="button" class="cerrar" value="X"></a>
+                    </article>
+
+                    <a href="#3"><div class="imagenc inline" style="background-position: center; background-repeat: no-repeat;"></div></a>
+                    <article class="lightbox" id="3">
+                    <div class="imagenc inline" style="background-position: center; width: 50%; height: 50%;"></div>
+                    <a href="#gal"><input type="button" class="cerrar" value="X"></a>
+                    </article>
+                
+                <br><br><br><br><br>
+                <a name="ubi"></a>
+                <hr style="border-color: rgb(77, 40, 15);"><h1 class="sour-gummy" style="color: rgb(92, 59, 35);">Ubicación</h1><hr style="border-color: rgb(77, 40, 15);">
+                <br>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.7887662123085!2d-78.51777448960539!3d-0.22053139977636724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d59980ac2e7a71%3A0xd8e53217c487e79f!2sIglesia%20Cat%C3%B3lica%20San%20Francisco!5e0!3m2!1ses!2sec!4v1731281767550!5m2!1ses!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <br><br>
+            
+            <br>
+
+            <footer style="background-color: rgb(82, 53, 34); height: 300px;">
+                <div style="margin-top: 90px; display: inline;">
+                    <a href="#"><img style="width: 150px; height: 150px; padding-left: 100px;" src="lp/Logorelatos.png"></a>
+                    <div style="display: inline; padding-left: 400px;">
+                        <a href="https://www.facebook.com/watch/?v=398407004642736" target="_blank"><div style="display: inline-block; margin-top: 90px;"><img style="width: 100px; height: 100px;" src="lp/facebookk.png"></div></a>
+                        <a href="https://www.instagram.com/duolabstudio/p/CyORzopLwYS/?img_index=1" target="_blank"><div style="display: inline-block;"><img style="width: 100px; height: 100px; padding-left: 10px;" src="lp/instaa.png"></div></a>
+                        <a href="https://www.youtube.com/watch?v=abk2-LkjrTA" target="_blank"><div style="display: inline-block;"><img style="width: 100px; height: 100px; padding-left: 10px;" src="lp/yutubb.png"></div></a>
+                    </div>
+                    <br><br><br><br>
+                    <center><h5 style="color: white;">@2024 | Todos los derechos reservados</h5></center>
+                </div>
+            </footer>
+
+            
+    </center>
+</body>
+<script src="anaid.js"></script>
+</html>

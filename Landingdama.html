@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Dama Tapada</title>
+    <link rel="stylesheet" type="text/css" href="estilosrelatos.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Faculty+Glyphic&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+</head>
+<body style="margin: 0; top: 0; box-sizing: border-box; padding: 0; background-color: rgb(246, 229, 207) ;">
+    <center>
+
+        <div style="width: 100%; height: 200px; background-color:rgb(82, 53, 34); position: fixed; top: 0; padding-top: 10px; z-index: 100; padding-bottom: 20px;">
+            <a href="PaginaPrincipal.html" style="text-decoration: none;"><div class="faculty-glyphic-regular textos" style="padding-top: 5px; color: rgb(255, 255, 255);">CAPKING</div></a>
+            <div><a href="PagRelatos.html"><img style="width: 5%;" src="lp/Logorelatos.png" class="inline"></a></div>
+            <div>
+                <div class="menu"><a href="#"><img style="width: 25px;" src="lp/flecha.png" class="inline"></a></div>
+                <div class="menu sour-gummy"><a style="text-decoration: none; color: rgb(241, 232, 227);" href="#his">Historia</a></div>
+                <div class="menu sour-gummy"><a style="text-decoration: none; color: rgb(241, 232, 227);" href="#rela">Relatos</a></div>
+                <div class="menu sour-gummy"><a style="text-decoration: none; color: rgb(241, 232, 227);" href="#gal">Galería</a></div>
+                <div class="menu sour-gummy"><a style="text-decoration: none; color: rgb(241, 232, 227);" href="#ubi">Ubicación</a></div>
+   
+                <div class="botonconek"><a href="Cine.html"><img src="lp/logo cine.png"  style="width: 50px;"></a> <img src="lp/flecha.png" style="width: 25px; display: block; rotate: 180deg;" onclick="mostrarcate()">
+                    <div style="display: none; background-color: rgb(82, 53, 34); width: 40%;" class="inline" id="contenido2"><div class="bebas-neue-regular"><a href="Cine.html #ficcion" style="text-decoration: none;"><p class="letra">F</p></a><a href="Cine.html #accion" style="text-decoration: none;"><p class="letra">Ac</p></a><a href="Cine.html #aventura" style="text-decoration: none;"><p class="letra">Av</p></a></div></div>
+                </div>
+            
+                <a name="sus"></a>
+                <button class="botonx sour-gummy" onclick="mostraralgo()">Contacto de Suscripción</button>
+                <div id="contenido" style="display: none; background-color: rgb(82, 53, 34); width: 40%;" class="inline">
+                    <div class="sour-gummy">
+                        <br>
+                        <h1 style="color: rgb(255, 255, 255);">Formulario de Contacto</h1>
+                        <p></p>
+                        <label style="color: white; padding-right: 10px;">Nombre:</label><input type="text" name="nombre" placeholder="Ingresa tu nombre">
+                        <p></p>
+                        <label style="color: white; padding-right: 7px;">Apellido:</label><input type="text" name="nombre" placeholder="Ingresa tu apellido">
+                        <p></p>
+                        <label style="color: rgb(255, 255, 255); padding-right: 19px;">E-mail:</label><input type="email" id="correo" name="correo" placeholder="Ingresa tu correo electrónico aquí">
+                        <br><br>
+                        <script>
+                            function validar()
+                            {
+                                var correo = document.getElementById("correo").value;
+                                if (correo.includes ("@") && correo.includes ("."))
+                            {
+                                alert("Formulario Validada");
+                            }
+                            else
+                            {
+                                alert("Formulario Inválidado");
+                            }
+                            
+                            }
+                            </script>
+                        <button onclick="validar()">Enviar</button>
+                        <br><br><br>
+
+                    </div> 
+                    </div>
+            </div>
+        </div>
+
+        <div style="width: 100%; height: 100px; padding-top: 260px;">
+
+            <div class="carrusel-rotativo" style="padding-top: 10px;">
+                <ul>
+                    <li>
+                        <div style="background: url(lp/dama0.jpg); width: 100%; height: 700px; background-size: cover;"></div>
+                    </li>
+                    <li><img style="height: 725px;" src="lp/dama6.jpeg"></li>
+                    <li><img style="height: 725px;" src="lp/dama7.jpg"></li>
+                    <li><img style="height: 725px;" src="lp/dama4.jpg"></li>
+                </ul>
+            </div>
+
+        <br>
+        <a name="his"></a>
+           <hr style="border-color: rgb(77, 40, 15);"><h1 class="sour-gummy" style="color: rgb(92, 59, 35);">Descubre la Historia de la Dama Tapada</h1><hr style="border-color: rgb(77, 40, 15);">
+           <br>
+        <div style="width: 80%;" class="edua">
+            <p>
+                La "Dama Tapada" es una figura fantasmal descrita como una mujer elegante y esbelta que lleva una sombrilla. Su leyenda cuenta que, al acercarse a un hombre, desprende un aroma cautivador que lo seduce y lo conduce hacia una zona solitaria. Allí, se detiene y revela su rostro cadavérico, transformando su fragancia en un olor putrefacto que paraliza de horror a su víctima, llevándola, en algunos casos, a la muerte por impresión. Algunos que logran sobrevivir quedan marcados de por vida, mientras que otros, traumatizados, deben ser hospitalizados para superar el encuentro.</p>
+            <br>
+            <img src="lp/dama4.jpg" width="600px" height="auto">
+        </div>
+        <br><br>
+
+        <hr style="border-color: rgb(77, 40, 15);"><h1 class="sour-gummy" style="color: rgb(92, 59, 35);">¿Qué debes saber?</h1><hr style="border-color: rgb(77, 40, 15);">
+
+     <div style="width: 40%; display: inline-block;" class="edua">
+        <p>Este relato cuenta que en Ecuador en la ciudad de Guayaquil aparece de vez en cuando una joven delgada a quien nadie ha visto su rostro, ya que lleva cubierto con un velo, sin embargo otros afirman que esta leyenda urbana no se conoce su origen,  pero podemos decir que estas historias son contadas en las principales ciudades del país  por los años de 1700. </p>
+        </div>
+        <br>
+        <a name="rela"></a>
+        <hr style="border-color: rgb(77, 40, 15);"><h1 class="sour-gummy" style="color: rgb(92, 59, 35);">Relatos Tapados</h1><hr style="border-color: rgb(77, 40, 15);">
+        <br><br><br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/B5fXidCDTVA?si=_hlMZmXZyPw_EZdc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <br><br>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/19ol4NWOTLtgpN9pf3zeRs?utm_source=generator&theme=0" width="90%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <br><br><br><br><br>
+
+            <a name="gal"></a>
+            <hr style="border-color: rgb(77, 40, 15);"><h1 class="sour-gummy" style="color: rgb(92, 59, 35);">Galería</h1><hr style="border-color: rgb(77, 40, 15);">
+                <br><br><br>
+
+                <a href="#1"><div class="imagenx inline" style="background-position: center; background-repeat: no-repeat;"></div></a>
+                    <article class="lightbox" id="1">
+                    <div class="imagenx inline" style="background-position: center; width: 50%; height: 90%;"></div>
+                    <a href="#gal"><input type="button" class="cerrar" value="X"></a>
+                    </article>
+
+                    <a href="#2"><div class="imageny inline" style="background-position: center; background-repeat: no-repeat;"></div></a>
+                    <article class="lightbox" id="2">
+                    <div class="imageny inline" style="background-position: center; width: 50%; height: 90%;"></div>
+                    <a href="#gal"><input type="button" class="cerrar" value="X"></a>
+                    </article>
+
+                    <a href="#3"><div class="imagenz inline" style="background-position: center; background-repeat: no-repeat;"></div></a>
+                    <article class="lightbox" id="3">
+                    <div class="imagenz inline" style="background-position: center; width: 70%; height: 90%;"></div>
+                    <a href="#gal"><input type="button" class="cerrar" value="X"></a>
+                    </article>
+                
+                <br><br><br><br><br>
+                <a name="ubi"></a>
+                <hr style="border-color: rgb(77, 40, 15);"><h1 class="sour-gummy" style="color: rgb(92, 59, 35);">Ubicación</h1><hr style="border-color: rgb(77, 40, 15);">
+                <br>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d610.0251249136683!2d-79.87990934622367!3d-2.1848154681917813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d6d9366f53379%3A0x38f6962b255f5f6c!2sD%20licores!5e0!3m2!1ses!2sec!4v1731305282520!5m2!1ses!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <br><br>
+            
+            <br>
+
+            <footer style="background-color: rgb(82, 53, 34); height: 300px;">
+                <div style="margin-top: 90px; display: inline;">
+                    <a href="#"><img style="width: 150px; height: 150px; padding-left: 100px;" src="lp/Logorelatos.png"></a>
+                    <div style="display: inline; padding-left: 400px;">
+                        <a href="https://www.facebook.com/ladamatapada/" target="_blank"><div style="display: inline-block; margin-top: 90px;"><img style="width: 100px; height: 100px;" src="lp/facebookk.png"></div></a>
+                        <a href="https://www.instagram.com/ladamatapada/p/BqPo_ZyF_UF/?img_index=1" target="_blank"><div style="display: inline-block;"><img style="width: 100px; height: 100px; padding-left: 10px;" src="lp/instaa.png"></div></a>
+                        <a href="https://www.youtube.com/watch?v=KmdlKVTDmB8" target="_blank"><div style="display: inline-block;"><img style="width: 100px; height: 100px; padding-left: 10px;" src="lp/yutubb.png"></div></a>
+                    </div>
+                    <br><br><br><br>
+                    <center><h5 style="color: white;">@2024 | Todos los derechos reservados</h5></center>
+                </div>
+            </footer>
+
+            
+    </center>
+    
+</body>
+<script src="anaid.js"></script>
+</html>

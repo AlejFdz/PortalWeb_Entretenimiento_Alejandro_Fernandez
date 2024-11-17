@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Misteriosa Casa 1028</title>
+    <link rel="stylesheet" type="text/css" href="estilosrelatos.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Faculty+Glyphic&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+</head>
+<body style="margin: 0; top: 0; box-sizing: border-box; padding: 0; background-color: rgb(246, 229, 207) ;">
+    <center>
+
+        <div style="width: 100%; height: 200px; background-color:rgb(82, 53, 34); position: fixed; top: 0; padding-top: 10px; z-index: 100; padding-bottom: 20px;">
+        <a href="PaginaPrincipal.html" style="text-decoration: none;"><div class="faculty-glyphic-regular textos" style="padding-top: 5px; color: rgb(255, 255, 255);">CAPKING</div></a>
+            <div><a href="PagRelatos.html" ><img style="width: 5%;" src="lp/Logorelatos.png" class="inline"></a></div>
+            <div>
+                <div class="menu"><a href="#"><img style="width: 25px;" src="lp/flecha.png" class="inline"></a></div>
+                <div class="menu sour-gummy"><a style="text-decoration: none; color: rgb(241, 232, 227);" href="#his">Historia</a></div>
+                <div class="menu sour-gummy"><a style="text-decoration: none; color: rgb(241, 232, 227);" href="#rela">Relatos</a></div>
+                <div class="menu sour-gummy"><a style="text-decoration: none; color: rgb(241, 232, 227);" href="#gal">Galería</a></div>
+                <div class="menu sour-gummy"><a style="text-decoration: none; color: rgb(241, 232, 227);" href="#ubi">Ubicación</a></div>
+     
+                <div class="botonconek"><a href="Cine.html"><img src="lp/logo cine.png"  style="width: 50px;"></a> <img src="lp/flecha.png" style="width: 25px; display: block; rotate: 180deg;" onclick="mostrarcate()">
+                    <div style="display: none; background-color: rgb(82, 53, 34); width: 40%;" class="inline" id="contenido2"><div class="bebas-neue-regular"><a href="Cine.html #ficcion" style="text-decoration: none;"><p class="letra">F</p></a><a href="Cine.html #accion" style="text-decoration: none;"><p class="letra">Ac</p></a><a href="Cine.html #aventura" style="text-decoration: none;"><p class="letra">Av</p></a></div></div>
+                </div>
+
+                <a name="sus"></a>
+                <button class="botonx sour-gummy" onclick="mostraralgo()">Contacto de Suscripción</button>
+                <div id="contenido" style="display: none; background-color: rgb(82, 53, 34); width: 40%;" class="inline">
+                    <div class="sour-gummy">
+                        <br>
+                        <h1 style="color: rgb(255, 255, 255);">Formulario de Contacto</h1>
+                        <p></p>
+                        <label style="color: white; padding-right: 10px;">Nombre:</label><input type="text" name="nombre" placeholder="Ingresa tu nombre">
+                        <p></p>
+                        <label style="color: white; padding-right: 7px;">Apellido:</label><input type="text" name="nombre" placeholder="Ingresa tu apellido">
+                        <p></p>
+                        <label style="color: rgb(255, 255, 255); padding-right: 19px;">E-mail:</label><input type="email" id="correo" name="correo" placeholder="Ingresa tu correo electrónico aquí">
+                        <br><br>
+                  
+                        <button onclick="validar()">Enviar</button>
+                        <br><br><br>
+
+                    </div> 
+                    </div>
+            </div>
+            </div>
+            
+
+        <div style="width: 100%; height: 100px; padding-top: 260px;">
+
+            <div class="carrusel-rotativo" style="padding-top: 10px;">
+                <ul>
+                    <li>
+                        <div style="background: url(lp/poortada.jpg); width: 100%; height: 700px; background-size: cover;"></div>
+                    </li>
+                    <li><img style="height: 725px;" src="lp/toro.jpg"></li>
+                    <li><img style="height: 725px;" src="lp/obra2.jpg"></li>
+                    <li><img style="height: 725px;" src="lp/fondo pagina.jpg"></li>
+                </ul>
+            </div>
+
+        <br>
+        <a name="his"></a>
+           <hr style="border-color: rgb(77, 40, 15);"><h1 class="sour-gummy" style="color: rgb(92, 59, 35);">Descubre la Oscura Historia de la Casa 1028 en el Corazón de Quito</h1><hr style="border-color: rgb(77, 40, 15);">
+           <br>
+        <div style="width: 80%;" class="edua">
+            <p>La Casa 1028 tiene una larga historia que se remonta al siglo XIX. Según los relatos, esta vivienda perteneció a una influyente familia de la época. Con el paso del tiempo, los dueños originales desaparecieron bajo circunstancias misteriosas, dejando la casa en un estado de abandono. A partir de ese momento, los vecinos comenzaron a reportar sonidos inexplicables, apariciones y eventos sobrenaturales que parecían indicar que la casa estaba embrujada.</p>
+            <br>
+            <img src="lp/imagen 1 casa.jpg" alt="" width="300px">
+        </div>
+        <br><br>
+
+        <hr style="border-color: rgb(77, 40, 15);"><h1 class="sour-gummy" style="color: rgb(92, 59, 35);">Los Fenómenos Paranormales</h1><hr style="border-color: rgb(77, 40, 15);">
+        <br>
+     <div style="width: 30%; display: inline-block;" class="edua">
+        <p>A lo largo de los años, la Casa 1028 ha sido testigo de eventos inquietantes:</p>
+         <p><strong>Sombras en las ventanas:</strong> Muchas personas afirman haber visto siluetas moviéndose dentro de la casa, a pesar de que está deshabitada.</p>
+         <p><strong>Objetos que se mueven solos:</strong> Testimonios cuentan que muebles y objetos cambian de lugar sin razón aparente.</p>
+         <p><strong>Voces y susurros:</strong> Durante la noche, algunos aseguran escuchar voces que provienen del interior de la casa, aunque no hay nadie allí.</p>
+         <p><strong>Sensación de ser observado:</strong> Visitantes y curiosos reportan una extraña sensación de ser vigilados desde las ventanas.</p>
+        </div>
+        <br>
+        <a name="rela"></a>
+        <hr style="border-color: rgb(77, 40, 15);"><h1 class="sour-gummy" style="color: rgb(92, 59, 35);">Relatos 1028</h1><hr style="border-color: rgb(77, 40, 15);">
+        <br><br><br>
+        <video controls width="640" height="360">
+            <source src="lp/Leyendas de Quito - La casa 1028.mp4" type="video/mp4">
+            </video>
+            <br><br>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/4QSiV536EbDwYoHZvi9Geb?utm_source=generator&theme=0" width="90%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <br><br><br><br><br>
+            <hr style="border-color: rgb(77, 40, 15);"><h1 class="sour-gummy" style="color: rgb(92, 59, 35);">¿Y la Casa 1028?</h1><hr style="border-color: rgb(77, 40, 15);">
+            <br>
+            <img src="lp/imagen 2 casa.jpg" alt="">
+            <div style="width: 40%;">
+                <p class="edua">Aunque la Casa 1028 está abandonada, su leyenda sigue viva. Es un sitio de interés para los curiosos del paranormal, historiadores locales y turistas que buscan experiencias aterradoras. La fachada descuidada y las historias inquietantes la convierten en un lugar icónico dentro del patrimonio oscuro de Quito.</p>
+            </div>
+            <br><br><br>
+            <a name="gal"></a>
+            <hr style="border-color: rgb(77, 40, 15);"><h1 class="sour-gummy" style="color: rgb(92, 59, 35);">Galería</h1><hr style="border-color: rgb(77, 40, 15);">
+                <br><br><br>
+
+                <a href="#1"><div class="imagen1 inline" style="background-position: center; background-repeat: no-repeat;"></div></a>
+                    <article class="lightbox" id="1">
+                    <div class="imagen1 inline" style="background-position: center; width: 50%; height: 50%;"></div>
+                    <a href="#gal"><input type="button" class="cerrar" value="X"></a>
+                    </article>
+
+                    <a href="#2"><div class="imagen2 inline" style="background-position: center; background-repeat: no-repeat;"></div></a>
+                    <article class="lightbox" id="2">
+                    <div class="imagen2 inline" style="background-position: center; width: 50%; height: 50%;"></div>
+                    <a href="#gal"><input type="button" class="cerrar" value="X"></a>
+                    </article>
+
+                    <a href="#3"><div class="imagen3 inline" style="background-position: center; background-repeat: no-repeat;"></div></a>
+                    <article class="lightbox" id="3">
+                    <div class="imagen3 inline" style="background-position: center; width: 50%; height: 50%;"></div>
+                    <a href="#gal"><input type="button" class="cerrar" value="X"></a>
+                    </article>
+                
+                <br><br><br><br><br>
+                <a name="ubi"></a>
+                <hr style="border-color: rgb(77, 40, 15);"><h1 class="sour-gummy" style="color: rgb(92, 59, 35);">Ubicación</h1><hr style="border-color: rgb(77, 40, 15);">
+                <br>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.7888344926987!2d-78.51348588960539!3d-0.22027649977662578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d5996e70788639%3A0x4f8fa4f54fdf3c1c!2sLeyenda%20de%20la%20casa%201028!5e0!3m2!1ses!2sec!4v1728804641638!5m2!1ses!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <br><br>
+            
+            <br>
+            <footer style="background-color: rgb(82, 53, 34); height: 300px;">
+                <div style="margin-top: 90px; display: inline;">
+                    <a href="#"><img style="width: 150px; height: 150px; padding-left: 100px;" src="lp/Logorelatos.png"></a>
+                    <div style="display: inline; padding-left: 400px;">
+                        <a href="https://www.facebook.com/photo.php?fbid=452119577038830&id=100067223754596&set=a.413350464249075" target="_blank"><div style="display: inline-block; margin-top: 90px;"><img style="width: 100px; height: 100px;" src="lp/facebookk.png"></div></a>
+                        <a href="https://www.instagram.com/teatrodelossilfos/p/CrzOTmWLsUk/" target="_blank"><div style="display: inline-block;"><img style="width: 100px; height: 100px; padding-left: 10px;" src="lp/instaa.png"></div></a>
+                        <a href="https://www.youtube.com/watch?app=desktop&v=X0nA9SxpltA" target="_blank"><div style="display: inline-block;"><img style="width: 100px; height: 100px; padding-left: 10px;" src="lp/yutubb.png"></div></a>
+                    </div>
+                    <br><br><br><br>
+                    <center><h5 style="color: white;">@2024 | Todos los derechos reservados</h5></center>
+                </div>
+            </footer>
+    </center>
+
+    </div>
+    
+</body>
+<script src="anaid.js"></script>
+</html>
